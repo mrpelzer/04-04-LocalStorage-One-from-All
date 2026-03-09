@@ -49,30 +49,33 @@ The goal of this project is to load data from `localStorage`, parse it, and disp
   - Takes the `index` of the mutant object as a parameter.
   - Displays the mutant's data on the webpage using HTML templates (either the provided or custom templates).
 
----
+
 
 ## Requirements
 
 ### JavaScript
 
-To complete the project, you'll need to work with the following JavaScript functions and concepts:
+For the project, the following JavaScript functions and concepts:
 
 - **DOM Manipulation**:
-  - `document.querySelector(value)`
-  - `insertAdjacentHTML(position, value)`
-  - `innerHTML`, `innerText`
+  - `document.querySelector(target)`
+    - `.insertAdjacentHTML(position, value)`
+    - `.innerHTML`
+    - `.innerText`
   
 - **JSON**:
-  - `JSON.parse(value)` to convert string data into an object.
+  - `.parse(value)` to convert string data into an object.
   
 - **localStorage**:
-  - `localStorage.getItem(key)` to retrieve stored data.
+  - `.getItem(key)` to retrieve stored data.
 
 - **Objects**:
   - Accessing object properties using `object.key`.
 
-- **Loops & Iterators**:
-  - Use `for()`, `.forEach()`, or `for...in` loops to iterate through the data.
+- **Loops & Iterators**: loops to iterate through the data
+  - `for()`
+  - `.forEach()`, **or** 
+  - `for...in`
 
 ### HTML
 
@@ -84,14 +87,14 @@ To complete the project, you'll need to work with the following JavaScript funct
 - Apply styles such as width, height, margin, padding, and font to enhance the page's appearance.
 - Be creative with the layout!
 
----
+
 
 ## Tips
 
 - **Be creative** with the design and user interface. Think about how to display the data in a user-friendly way.
 - **Test the code frequently** to ensure all functionalities work as expected (loading, searching, and displaying data).
 
----
+
 
 ## Advanced
 
@@ -99,7 +102,3 @@ For an additional challenge, you can integrate **IndexedDB** to store and retrie
 
 - **IndexedDB API**: Use IndexedDB to store, retrieve, and display the data.
 - Modify your functions to interact with IndexedDB rather than `localStorage`.
-
----
-
-Good luck, and have fun coding!
